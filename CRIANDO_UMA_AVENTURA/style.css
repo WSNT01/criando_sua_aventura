@@ -1,0 +1,32 @@
+body {
+    background-color:rgb(213, 184, 133);
+    color: black;
+    font-family:"Edu AU VIC WA NT Guides", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    margin: 20px;
+}
+
+button {
+    background-color: rgb(61, 135, 9);
+    color: rgb(217, 195, 27);
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 70%;
+}
